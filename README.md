@@ -6,3 +6,5 @@ This repository will focus on me attempting to solve LeetCode Challenges and kee
 [Problem 2: Add Two Numbers](https://github.com/cvs1578/LeetCodeProblems/blob/main/addTwoNumbers.py)
 
 [Problem 3: Longest Substring without Repeating Characters](https://github.com/cvs1578/LeetCodeProblems/blob/main/lengthOfLongestSubstring.py)
+
+[Problem 4: Median of Two Sorted Arrays (work in progress)](https://github.com/cvs1578/LeetCodeProblems/blob/main/findMedianSortedArrays.py)
