@@ -10,3 +10,5 @@ This repository will focus on me attempting to solve LeetCode Challenges and kee
 [Problem 4: Median of Two Sorted Arrays (work in progress)](https://github.com/cvs1578/LeetCodeProblems/blob/main/findMedianSortedArrays.py)
 
 [Problem 9: Palindrome Number](https://github.com/cvs1578/LeetCodeProblems/blob/main/isPalindromeNumber.py)
+
+[Problem 217: Contains Duplicate](https://github.com/cvs1578/LeetCodeProblems/blob/main/containDuplicates.py)
