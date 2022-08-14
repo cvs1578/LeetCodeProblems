@@ -9,7 +9,7 @@ How I'm choosing the questions: [NeetCode.io](https://neetcode.io/) OR just choo
 
 [Problem 3: Longest Substring without Repeating Characters](https://github.com/cvs1578/LeetCodeProblems/blob/main/lengthOfLongestSubstring.py)
 
-[Problem 4: Median of Two Sorted Arrays (work in progress)](https://github.com/cvs1578/LeetCodeProblems/blob/main/findMedianSortedArrays.py)
+[Problem 4: Median of Two Sorted Arrays (work in progress) (valid solution, but need to lower time complexity)](https://github.com/cvs1578/LeetCodeProblems/blob/main/findMedianSortedArrays.py)
 
 [Problem 9: Palindrome Number](https://github.com/cvs1578/LeetCodeProblems/blob/main/isPalindromeNumber.py)
 
