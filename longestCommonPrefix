@@ -1,0 +1,21 @@
+#Problem 14: Longest Common Prefix
+#Objective: Find the longest common prefix string amongst an array of strings
+def longestCommonPrefix(strs):
+    """
+    :type strs: List[str]
+    :rtype: str
+    """
+    
+    #My initial thought process: Go through each word one letter at a time to determe the LCP
+    size = 0 #this is the size of the prefix, to keep track of overflow
+    word = ""
+    if len(strs)==1: #If there is only one word in the list, then return the word
+        return strs[0]
+    while True: 
+        for i in range(len(strs)-1): #Going through each word in the list
+            #First, determine if the current size of the prefix is bigger than the word, then determine if the two words have the same character.
+            if size>=len(strs[i])  or size>=len(strs[i+1]) or strs[i][size] != strs[i+1][size]:
+                        return word
+        #If it made it through, then we can append the letter and increase the size.
+        word+=strs[i][size]
+        size+=1
