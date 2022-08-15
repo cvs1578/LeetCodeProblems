@@ -13,6 +13,8 @@ How I'm choosing the questions: [NeetCode.io](https://neetcode.io/) OR just choo
 
 [Problem 9: Palindrome Number](https://github.com/cvs1578/LeetCodeProblems/blob/main/isPalindromeNumber.py)
 
+[Problem 14: Longest Common Prefix](https://github.com/cvs1578/LeetCodeProblems/blob/main/longestCommonPrefix)
+
 [Problem 217: Contains Duplicate](https://github.com/cvs1578/LeetCodeProblems/blob/main/containDuplicates.py)
 
 [Problem 242: Valid Anagram](https://github.com/cvs1578/LeetCodeProblems/blob/main/isAnagram.py)
