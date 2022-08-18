@@ -1,0 +1,25 @@
+#Problem 20: Valid Parenthesis
+def isValid(s):
+    """
+    :type s: str
+    :rtype: bool
+    """
+    #Given string, determine if the string is valid by making sure brackets can be closed
+    #plan: Stack pops
+    stack= []
+    #First, gonna make a dictionary so it's easier to see and compare.
+    #Plan with dictionary: the start bracket will have the same value as end bracket
+    parenthesis = {'(':0,')':0, '[':1,']':1,'{':2,'}':2}
+    for i in s:
+        if i == '(' or i == '[' or i=='{': #Only add to stack if it's starting parenthesis
+            stack.append(i)
+        elif not stack: #Need to determine if stack is empty before trying to compare
+            return False
+        else:
+            if parenthesis[i]==parenthesis[stack[-1]]: #Using the dictionary, compare values of the brackets to determine if valid, then pop
+                stack.pop()
+            else:
+                return False
+    if stack: #If there is anything left in the stack, then there is an open bracket so it's not valid
+        return False
+    return True
