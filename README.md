@@ -15,6 +15,8 @@ How I'm choosing the questions: [NeetCode.io](https://neetcode.io/) OR just choo
 
 [Problem 14: Longest Common Prefix](https://github.com/cvs1578/LeetCodeProblems/blob/main/longestCommonPrefix)
 
+[Problem 20: Valid Parenthesis](https://github.com/cvs1578/LeetCodeProblems/blob/main/validParentheses)
+
 [Problem 217: Contains Duplicate](https://github.com/cvs1578/LeetCodeProblems/blob/main/containDuplicates.py)
 
 [Problem 242: Valid Anagram](https://github.com/cvs1578/LeetCodeProblems/blob/main/isAnagram.py)
