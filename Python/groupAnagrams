@@ -1,0 +1,4 @@
+#Problem 49: Group Anagrams
+#Given array of strings, group the anagrams together. 
+def groupAnagrams(strs):
+    #Idea: 
